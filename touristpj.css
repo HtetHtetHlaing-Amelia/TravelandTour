@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap')
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	font-family: 'Roboto', sans-serif;
+	
+}
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80px;
+	/*padding-left:90px;*/
+	box-sizing: border-box;
+	/*background: url(slide);*/
+	background-color: black;
+	padding: 20px 90px;
+}
+
+nav ul{
+	list-style: none;
+	float: right;
+	margin-top:3px;
+	padding: 0;
+	display: flex;
+}
+nav ul li a{
+	line-height: 50px;
+	color:white;
+	padding: 18px 30px;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color:blue;
+
+}
+
+.i{
+	margin-top:20px;
+}
+nav ul li a.i:hover{
+	color: blue;
+}
+
+.slider{
+	width:100%;
+	height: 530px;
+	/*margin-left:20px;*/
+	background: url(img9.jpg);
+	background-repeat: no-repeat;
+	background-size:100%;
+	animation: slide 35s infinite;
+}
+
+@keyframes slide{
+	10%{
+		background: url("img10.jpg");
+		background-repeat: no-repeat;
+		background-size:100%;
+	}
+	20%{
+		background: url("img11.jpg");
+		background-size:100%;
+		background-repeat: no-repeat;
+	}
+	30%{
+		background: url("img12.jpg");
+		background-size:100%;
+		background-repeat: no-repeat;
+	}
+	40%{
+		background: url("img13.jpg");
+		background-size:100%;
+		background-repeat: no-repeat;
+	}
+
+	50%{
+		background: url("img15.jpg");
+		background-size:100%;
+		background-repeat: no-repeat;
+	}
+	60%{
+		background: url("img8.jpg");
+		background-size:100%;
+		background-repeat: no-repeat;
+	}
+	70%{
+		background: url("img9.jpg");
+		background-size:100%;
+		background-repeat: no-repeat;
+	}
+	80%{
+		background: url("img10.jpg");
+		background-size:100%;
+		background-repeat: no-repeat;
+	}
+	90%{
+		background: url("img16.jpg");
+		background-size:100%;
+		background-repeat: no-repeat;
+	}
+	100%{
+		background: url("img15.jpg");
+		background-size:100%;
+		background-repeat: no-repeat;
+	}
+}
+/*nav .logo{
+	padding: 20px 20px;
+	height: 70px;
+	float: left;
+}
+.box{
+	height:4px;
+	background-color: blue;
+	
+	border-radius: 10px;
+	border:5px solid white;
+}*/
+/*.t1{
+	margin-left: 50px;
+	line-height: 5px;
+	font-size: 40px;
+	font-weight: bold;
+}*/
+
+.p1{
+	width:70%;
+	height:270px;
+	
+	/*padding:50px;*/
+	padding-top:110px;
+	margin-left:175px;
+
+	box-sizing: border-box;
+
+
+	font-size:40px;
+	font-weight: bold;
+	color: white;
+	
+	
+	text-shadow:10px 10px 15px white;
+}
+
+.makeit{
+	width:250px;
+	height:65px;
+	font-size: 18px;
+	color: white;
+	border: 3px solid #0e0d6b;
+	margin-left:400px;
+	margin-right: 100px;
+	cursor: pointer;
+	background: url(slide);
+
+}
+
+.destination{
+	width:250px;
+	height:65px;
+	font-size: 18px;
+	color: white;
+	background:#5c3bed;
+	margin-right:100px;
+	border-radius:4px;
+	border: none;
+}
+
+h3{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}	
+
+.div1{
+
+	font-family: 'Roboto', sans-serif;
+	font-size:19px;
+}
+
+hr{
+	color:white;
+}
+.table1{
+	width: 80%;
+	height: 300px;
+	margin-left:110px;
+	font-size:20px;
+	text-align: center;
+}
+
+.tr1{
+	color:dimgray;
+
+}
+
+.viewbutton{
+	width:120px;
+	height:40px;
+	color: white;
+	font-sie:21px;
+	/*text-shadow: 10px 10px 10px white;*/
+	cursor: pointer;
+	border: none;
+	background:#5c3bed;
+}
+.viewbutton:hover{
+	color:gray;
+}
+.div2{
+	height:130px;
+	font-family: 'Roboto', sans-serif;
+	font-size:19px;
+	background:url("white.jpg");
+	margin-top: 0;
+	padding:40px;
+}
+.table2{
+	color: white;
+	background-color:#302e2e;
+	font-size:18px;
+	margin-top:0px;
+}
+h4{
+	font-size:21px;
+	font-weight: bold;
+
+}
+
+.p2{
+	width:280px;
+	height:1px;
+	background-color:white;
+}
+
+.td1p:hover{
+	cursor: pointer;
+	color: blue;
+}
+.td2{
+	margin-left:90px;
+	margin-top: 0;
+	padding-left:180px;
+}
+.td2i{
+	cursor: pointer;
+
+}
+
+.td3p:hover{
+	cursor: pointer;
+	color: #f553c5;
+}
+
+.td4{
+	padding-top:0px;
+}
+.td4a{
+	color: white;
+	text-decoration: none;
+	margin-top: 10px;
+}
+.td4a:hover{
+	color:#f553c5;
+}
+.p3{
+
+	height: 40px;
+	color: white;
+	background: #242222;
+	padding: 20px;
+	margin-top: 0;
+	line-height:40px;
+}
+
